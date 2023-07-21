@@ -1,0 +1,44 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bg-container {
+  background-color: #ffffff33;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 90px;
+}
+
+.emoji-bg-container {
+  width: 60%;
+  align-self: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.win-loose-bg-container {
+  background-color: #ffffff33;
+  border: 1px solid #ffffff30;
+  border-radius: 10px;
+  width: 40%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
